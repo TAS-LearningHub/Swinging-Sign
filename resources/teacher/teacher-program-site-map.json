@@ -1,0 +1,725 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "stage4-swinging-sign-teacher-program-site-map-v1.0",
+  "build_id": "swinging-sign-local-v1.0-20260831",
+  "candidate_root": "outputs/swinging-sign-course-site",
+  "state": "local-only",
+  "route_and_anchor_check": "passed",
+  "site_mapping": [
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-theory",
+      "route": "modules/module-01.html",
+      "anchor": "m01s01-read-the-product-and-user",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Read the product and user",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-check",
+      "route": "modules/module-01.html",
+      "anchor": "package-m01s01-read-product-user",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-response",
+      "route": "modules/module-01.html",
+      "anchor": "m01s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-activity",
+      "route": "activities.html",
+      "anchor": "ala-m01s01-evidence-detective",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Evidence detective",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-media",
+      "route": "videos.html",
+      "anchor": "m01s01-read-the-product-and-user-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-theory",
+      "route": "modules/module-01.html",
+      "anchor": "m01s02-criteria-constraints-and-project-pathways",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Criteria, constraints and project pathways",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-check",
+      "route": "modules/module-01.html",
+      "anchor": "package-m01s02-criteria-constraints-pathways",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-response",
+      "route": "modules/module-01.html",
+      "anchor": "m01s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-activity",
+      "route": "activities.html",
+      "anchor": "ala-m01s02-pathway-brief-studio",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Pathway brief studio",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-media",
+      "route": "videos.html",
+      "anchor": "m01s02-criteria-constraints-and-project-pathways-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-theory",
+      "route": "modules/module-01.html",
+      "anchor": "m01s03-workshop-readiness-and-sustainability",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Workshop readiness and sustainability",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-check",
+      "route": "modules/module-01.html",
+      "anchor": "package-m01s03-readiness-sustainability",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-response",
+      "route": "modules/module-01.html",
+      "anchor": "m01s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-activity",
+      "route": "activities.html",
+      "anchor": "ala-m01s03-decision-gate",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Decision gate: ready, responsible, recorded",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-media",
+      "route": "videos.html",
+      "anchor": "m01s03-workshop-readiness-and-sustainability-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-theory",
+      "route": "modules/module-02.html",
+      "anchor": "m02s01-vector-and-bitmap",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Vector and bitmap",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-check",
+      "route": "modules/module-02.html",
+      "anchor": "package-m02s01-vector-bitmap",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-response",
+      "route": "modules/module-02.html",
+      "anchor": "m02s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-activity",
+      "route": "activities.html",
+      "anchor": "ala-m02s01-format-triage",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Format triage",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-media",
+      "route": "videos.html",
+      "anchor": "m02s01-vector-and-bitmap-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-theory",
+      "route": "modules/module-02.html",
+      "anchor": "m02s02-inkscape-tools-and-paths",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Inkscape tools and paths",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-check",
+      "route": "modules/module-02.html",
+      "anchor": "package-m02s02-inkscape-tools-paths",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-response",
+      "route": "modules/module-02.html",
+      "anchor": "m02s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-activity",
+      "route": "activities.html",
+      "anchor": "ala-m02s02-path-clinic",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Path clinic",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-media",
+      "route": "videos.html",
+      "anchor": "m02s02-inkscape-tools-and-paths-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-theory",
+      "route": "modules/module-02.html",
+      "anchor": "m02s03-legibility-annotation-and-peer-review",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Legibility, annotation and peer review",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-check",
+      "route": "modules/module-02.html",
+      "anchor": "package-m02s03-legibility-annotation-review",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-response",
+      "route": "modules/module-02.html",
+      "anchor": "m02s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-activity",
+      "route": "activities.html",
+      "anchor": "ala-m02s03-legibility-lab",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Legibility lab",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-media",
+      "route": "videos.html",
+      "anchor": "m02s03-legibility-annotation-and-peer-review-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-theory",
+      "route": "modules/module-03.html",
+      "anchor": "m03s01-material-properties-and-selection",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Material properties and selection",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-check",
+      "route": "modules/module-03.html",
+      "anchor": "package-m03s01-material-properties-and-selection",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-response",
+      "route": "modules/module-03.html",
+      "anchor": "m03s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-activity",
+      "route": "activities.html",
+      "anchor": "ala-m03s01-property-decision-matrix",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Build a property decision matrix",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-media",
+      "route": "videos.html",
+      "anchor": "m03s01-material-properties-and-selection-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-theory",
+      "route": "modules/module-03.html",
+      "anchor": "m03s02-measurement-layout-and-resource-efficiency",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Measurement, layout and resource efficiency",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-check",
+      "route": "modules/module-03.html",
+      "anchor": "package-m03s02-measurement-layout-and-resource-efficiency",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-response",
+      "route": "modules/module-03.html",
+      "anchor": "m03s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-activity",
+      "route": "activities.html",
+      "anchor": "ala-m03s02-paper-nesting-challenge",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Paper nesting challenge",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-media",
+      "route": "videos.html",
+      "anchor": "m03s02-measurement-layout-and-resource-efficiency-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-theory",
+      "route": "modules/module-03.html",
+      "anchor": "m03s03-files-mounting-and-teacher-approval",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Files, mounting and teacher approval",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-check",
+      "route": "modules/module-03.html",
+      "anchor": "package-m03s03-files-mounting-and-teacher-approval",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-response",
+      "route": "modules/module-03.html",
+      "anchor": "m03s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-activity",
+      "route": "activities.html",
+      "anchor": "ala-m03s03-approval-pack-audit",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Audit a fictional approval pack",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-media",
+      "route": "videos.html",
+      "anchor": "m03s03-files-mounting-and-teacher-approval-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-theory",
+      "route": "modules/module-04.html",
+      "anchor": "m04s01-production-sequence-and-authorisation",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Production sequence and authorisation",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-check",
+      "route": "modules/module-04.html",
+      "anchor": "package-m04s01-production-sequence-and-authorisation",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-response",
+      "route": "modules/module-04.html",
+      "anchor": "m04s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-activity",
+      "route": "activities.html",
+      "anchor": "ala-m04s01-production-control-board",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Build a production-control board",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-media",
+      "route": "videos.html",
+      "anchor": "m04s01-production-sequence-and-authorisation-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-theory",
+      "route": "modules/module-04.html",
+      "anchor": "m04s02-edges-finishing-and-quality",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Edges, finishing and quality",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-check",
+      "route": "modules/module-04.html",
+      "anchor": "package-m04s02-edges-finishing-and-quality",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-response",
+      "route": "modules/module-04.html",
+      "anchor": "m04s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-activity",
+      "route": "activities.html",
+      "anchor": "ala-m04s02-quality-language-clinic",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Turn opinions into quality evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-media",
+      "route": "videos.html",
+      "anchor": "m04s02-edges-finishing-and-quality-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-theory",
+      "route": "modules/module-04.html",
+      "anchor": "m04s03-nesting-offcuts-and-process-evidence",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Nesting, offcuts and process evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-check",
+      "route": "modules/module-04.html",
+      "anchor": "package-m04s03-nesting-offcuts-and-process-evidence",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-response",
+      "route": "modules/module-04.html",
+      "anchor": "m04s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-activity",
+      "route": "activities.html",
+      "anchor": "ala-m04s03-evidence-editor",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Edit a process-evidence story",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-media",
+      "route": "videos.html",
+      "anchor": "m04s03-nesting-offcuts-and-process-evidence-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-theory",
+      "route": "modules/module-05.html",
+      "anchor": "m05s01-surface-preparation-and-coatings",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Surface preparation and coatings",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-check",
+      "route": "modules/module-05.html",
+      "anchor": "package-m05s01-surface-preparation-and-coatings",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-response",
+      "route": "modules/module-05.html",
+      "anchor": "m05s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-activity",
+      "route": "activities.html",
+      "anchor": "ala-m05s01-finish-system-audit",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Audit a fictional finish system",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-media",
+      "route": "videos.html",
+      "anchor": "m05s01-surface-preparation-and-coatings-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-theory",
+      "route": "modules/module-05.html",
+      "anchor": "m05s02-hanging-stability-and-use",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Hanging, stability and use",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-check",
+      "route": "modules/module-05.html",
+      "anchor": "package-m05s02-hanging-stability-and-use",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-response",
+      "route": "modules/module-05.html",
+      "anchor": "m05s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-activity",
+      "route": "activities.html",
+      "anchor": "ala-m05s02-cardboard-balance-model",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Reason with a cardboard balance model",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-media",
+      "route": "videos.html",
+      "anchor": "m05s02-hanging-stability-and-use-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-theory",
+      "route": "modules/module-05.html",
+      "anchor": "m05s03-evaluate-feedback-and-improve",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Evaluate, feedback and improve",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-check",
+      "route": "modules/module-05.html",
+      "anchor": "package-m05s03-evaluate-feedback-and-improve",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-response",
+      "route": "modules/module-05.html",
+      "anchor": "m05s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-activity",
+      "route": "activities.html",
+      "anchor": "ala-m05s03-feedback-triage",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Feedback triage and improvement pitch",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-media",
+      "route": "videos.html",
+      "anchor": "m05s03-evaluate-feedback-and-improve-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m01-brief-and-readiness-review",
+      "route": "modules/module-01.html",
+      "anchor": "module-01-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m01-brief-and-readiness"
+    },
+    {
+      "site_id": "site-m02-communicate-the-design-review",
+      "route": "modules/module-02.html",
+      "anchor": "module-02-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m02-communicate-the-design"
+    },
+    {
+      "site_id": "site-m03-plan-for-production-review",
+      "route": "modules/module-03.html",
+      "anchor": "module-03-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m03-plan-for-production"
+    },
+    {
+      "site_id": "site-m04-produce-and-control-quality-review",
+      "route": "modules/module-04.html",
+      "anchor": "module-04-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m04-produce-and-control-quality"
+    },
+    {
+      "site_id": "site-m05-finish-test-and-evaluate-review",
+      "route": "modules/module-05.html",
+      "anchor": "module-05-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m05-finish-test-and-evaluate"
+    }
+  ]
+}

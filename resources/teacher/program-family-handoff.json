@@ -1,0 +1,112 @@
+{
+  "schema_version": "1.0",
+  "program_id": "stage4-swinging-sign-program",
+  "program_kind": "unit",
+  "source_binding": {
+    "source_map_id": "stage4-swinging-sign-source-map-v1.0",
+    "source_map_sha256": "49279c45f415aa2911dbc3710b94f4950cac945f3b59a0f4e31dcdac1a8e981f",
+    "integration_baseline_id": "stage4-swinging-sign-build-state-provisional",
+    "integration_baseline_path": "BUILD-STATE.json (site root)",
+    "integration_baseline_sha256": "9fa27674dfc65db3e69a9e00052aec83f88c9fdb0a8d5f15343f159207793222",
+    "stage13_integration_manifest": "Teacher to bind after artifact integration"
+  },
+  "course": {
+    "title": "Swinging Sign",
+    "family": "Metalwork",
+    "stage": "Stage 4",
+    "course": "Stage 4 Technology",
+    "version": "v1.0",
+    "duration": {
+      "value": 15,
+      "unit": "blocks"
+    },
+    "source_duration": "5 weeks (5 x 60-minute lessons per fortnight)",
+    "timetable_placement": "Teacher to confirm; blocks may be combined or distributed",
+    "site_state": "planned-public",
+    "release_authority": "GitHub Pages release authorised by Steve on 31 August 2026; live verification recorded separately after deployment"
+  },
+  "syllabus": {
+    "family_key": "technology-7-8-2023",
+    "title": "Technology 7-8 Syllabus (2023)",
+    "version": "2023",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/overview/course",
+    "status": "Implemented from 2026",
+    "verified_date": "2026-08-31",
+    "implementation_basis": "current mandatory syllabus for 2026 delivery",
+    "outcome_code_family": "TE4"
+  },
+  "palette": {
+    "mode": "stage4-focus-area",
+    "syllabus_tone": "technology-7-8-2023",
+    "focus_area_key": "mpp"
+  },
+  "master_relationship": {
+    "state": "linked",
+    "master_program_id": "stage-4-technology-200-hour-modular-master",
+    "coverage_state": "planned",
+    "note": "Unit coverage is limited to the mapped learning; master allocation and substitution remain Teacher to confirm."
+  },
+  "teacher_resources": {
+    "route": "teacher-resources.html",
+    "links": [
+      {
+        "label": "Teaching program PDF",
+        "artifact_role": "rendered-program"
+      },
+      {
+        "label": "Editable teaching program",
+        "artifact_role": "editable-program"
+      }
+    ]
+  },
+  "artifacts": [
+    {
+      "role": "editable-program",
+      "path": "Swinging-Sign-Teaching-Program-v1.0.docx",
+      "sha256": "ec0a32ab41fadf1e0358e531e0d77a7237c9f5e75e46a91da0fb4e0978080492"
+    },
+    {
+      "role": "rendered-program",
+      "path": "Swinging-Sign-Teaching-Program-v1.0.pdf",
+      "sha256": "4387aa1714b536d9ef30cabde8b9323a4731bc19067904bc915a0d2102b9c769"
+    },
+    {
+      "role": "alignment-manifest",
+      "path": "teacher-program-manifest.json",
+      "sha256": "8e470763357ebf56e5b7cbe8b4a0b43c0de2badd5401b749a1c9442c4adf5804"
+    },
+    {
+      "role": "site-map",
+      "path": "teacher-program-site-map.json",
+      "sha256": "43fa55751a73fc533885bf767d56b224ed7f8b60e28b763dee8e73c9d3029cf5"
+    },
+    {
+      "role": "delivery-register",
+      "path": "Swinging-Sign-Teaching-Program-v1.0.docx",
+      "sha256": "ec0a32ab41fadf1e0358e531e0d77a7237c9f5e75e46a91da0fb4e0978080492"
+    }
+  ],
+  "library_card": {
+    "title": "Swinging Sign",
+    "family": "Metalwork",
+    "stage": "Stage 4",
+    "course": "Stage 4 Technology",
+    "version": "v1.0",
+    "durationLabel": "15 blocks",
+    "syllabusAligned": true,
+    "pdf": "programs/Swinging-Sign-Teaching-Program-v1.0.pdf",
+    "docx": "programs/Swinging-Sign-Teaching-Program-v1.0.docx",
+    "manifest": "programs/teacher-program-manifest.json",
+    "syllabusTitle": "Technology 7-8 Syllabus (2023)",
+    "syllabusUrl": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/overview/course",
+    "syllabusStatus": "Implemented from 2026",
+    "syllabusVerified": "31 August 2026",
+    "focusArea": "mpp",
+    "master": false,
+    "masterNote": "Planned linked unit; local master allocation remains Teacher to confirm."
+  },
+  "registration": {
+    "state": "handoff-ready",
+    "canonical_library_url": "https://stevencowell.github.io/Main-Page/subject-program-library/"
+  }
+}

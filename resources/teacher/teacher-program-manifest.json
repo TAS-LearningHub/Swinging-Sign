@@ -1,0 +1,2203 @@
+{
+  "schema_version": "1.0",
+  "artifact_id": "stage4-swinging-sign-teacher-program-v1.0",
+  "version": "1.0",
+  "build_id": "swinging-sign-local-v1.0-20260831",
+  "course": {
+    "title": "Swinging Sign",
+    "classification": "Stage 4 Technology school-developed unit",
+    "focus_area": "Materials and production processes",
+    "primary_project": "Swinging Sign",
+    "additional_pathways": [
+      "LED tea-light holder",
+      "Scrolled pot-plant holder"
+    ],
+    "source_duration": "5 weeks (5 x 60-minute lessons per fortnight)",
+    "program_learning_blocks": 15,
+    "timetable_boundary": "The 15 entries are flexible learning blocks, not a claimed whole-number period count. Teacher to confirm local placement."
+  },
+  "cohort": "Stage 4 / Years 7-8",
+  "delivery_year": "Teacher to confirm",
+  "source_contract": {
+    "artifact_id": "stage4-swinging-sign-source-map-v1.0",
+    "version": "1.0",
+    "sha256": "49279c45f415aa2911dbc3710b94f4950cac945f3b59a0f4e31dcdac1a8e981f"
+  },
+  "integration_baseline": {
+    "artifact_id": "stage4-swinging-sign-build-state-provisional",
+    "path": "BUILD-STATE.json (site root)",
+    "sha256": "9fa27674dfc65db3e69a9e00052aec83f88c9fdb0a8d5f15343f159207793222"
+  },
+  "stage13_integration_manifest": {
+    "status": "Teacher to bind after artifact integration",
+    "current_provisional_baseline": "BUILD-STATE.json"
+  },
+  "syllabus_basis": {
+    "title": "Technology 7-8 Syllabus (2023)",
+    "version": "2023",
+    "outcome_code_family": "TE4",
+    "official_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/overview/course",
+    "verified_date": "2026-08-31",
+    "mandatory_from": "2026",
+    "implementation_status": "current mandatory syllabus for 2026 delivery",
+    "delivery_year": "Teacher to confirm",
+    "focus_area": "Materials and production processes",
+    "content_url": "https://curriculum.nsw.edu.au/learning-areas/tas/technology-7-8-2023/content/stage-4/fadc5a8620",
+    "excluded_content_boundary": "The unit does not claim whole-syllabus coverage or the Aboriginal and Torres Strait Islander Peoples content point without an approved local source and protocol."
+  },
+  "authority_state": "school-developed and NESA-aligned; local teacher-controlled facts remain Teacher to confirm",
+  "release_state": "GitHub Pages release authorised by Steve on 31 August 2026; live verification recorded separately after deployment",
+  "outcomes": [
+    {
+      "code": "TE4-SDP-01",
+      "statement": "explains relationships between sustainability, design and production",
+      "source_id": "S15",
+      "module_ids": [
+        "m01-brief-and-readiness",
+        "m03-plan-for-production",
+        "m04-produce-and-control-quality",
+        "m05-finish-test-and-evaluate"
+      ]
+    },
+    {
+      "code": "TE4-PDP-01",
+      "statement": "describes the practices and processes of designers and producers",
+      "source_id": "S15",
+      "module_ids": [
+        "m01-brief-and-readiness",
+        "m02-communicate-the-design",
+        "m04-produce-and-control-quality"
+      ]
+    },
+    {
+      "code": "TE4-MSC-01",
+      "statement": "explains how materials, systems and components contribute to solutions",
+      "source_id": "S15",
+      "module_ids": [
+        "m03-plan-for-production",
+        "m05-finish-test-and-evaluate"
+      ]
+    },
+    {
+      "code": "TE4-DES-01",
+      "statement": "communicates and evaluates design ideas and solutions",
+      "source_id": "S15",
+      "module_ids": [
+        "m01-brief-and-readiness",
+        "m02-communicate-the-design",
+        "m03-plan-for-production",
+        "m05-finish-test-and-evaluate"
+      ]
+    },
+    {
+      "code": "TE4-PPM-01",
+      "statement": "applies processes in the planning, management and production of projects",
+      "source_id": "S15",
+      "module_ids": [
+        "m02-communicate-the-design",
+        "m03-plan-for-production",
+        "m04-produce-and-control-quality",
+        "m05-finish-test-and-evaluate"
+      ]
+    },
+    {
+      "code": "TE4-SAF-01",
+      "statement": "selects and safely uses tools, materials, technologies and processes",
+      "source_id": "S15",
+      "module_ids": [
+        "m01-brief-and-readiness",
+        "m04-produce-and-control-quality",
+        "m05-finish-test-and-evaluate"
+      ]
+    }
+  ],
+  "modules": [
+    {
+      "module_id": "m01-brief-and-readiness",
+      "title": "Brief and readiness",
+      "timing": "Week 1 flexible learning blocks; actual period placement Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m01s01-read-the-product-and-user",
+          "title": "Read the product and user",
+          "content_descriptors": [
+            "Describe products and systems created by designers, producers and manufacturers",
+            "Outline factors affecting the design of products and solutions"
+          ],
+          "source_ids": [
+            "S01",
+            "S02",
+            "S03",
+            "S06",
+            "S16"
+          ],
+          "learning_intention": "Explain how purpose, user and context shape a product, and separate visible evidence from unsupported assumptions.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Evidence detective.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Four-note evidence set, revised product-analysis sentence, 10 feedback-rich MCQs and the scaffolded analysis response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Evidence detective",
+            "activity_evidence": "A four-note evidence set plus a revised product-analysis sentence."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Evidence detective",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m01s01-read-the-product-and-user-theory",
+            "knowledge_check": "site-m01s01-read-the-product-and-user-check",
+            "evidence": "site-m01s01-read-the-product-and-user-response",
+            "activity": "site-m01s01-read-the-product-and-user-activity",
+            "media": "site-m01s01-read-the-product-and-user-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m01s02-criteria-constraints-and-project-pathways",
+          "title": "Criteria, constraints and project pathways",
+          "content_descriptors": [
+            "Outline factors affecting the design of products and solutions",
+            "Apply design and creative thinking to assess ideas and quality solutions"
+          ],
+          "source_ids": [
+            "S01",
+            "S02",
+            "S03",
+            "S06",
+            "S16"
+          ],
+          "learning_intention": "Turn a need into a clear design brief, distinguish criteria from constraints, and compare project pathways without assuming missing specifications.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Pathway brief studio.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Draft brief, labelled criteria and constraints, pathway trade-off, 10 MCQs and scaffolded justification.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Pathway brief studio",
+            "activity_evidence": "A source-safe brief with labelled criteria, confirmation questions and a trade-off explanation."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Pathway brief studio",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m01s02-criteria-constraints-and-project-pathways-theory",
+            "knowledge_check": "site-m01s02-criteria-constraints-and-project-pathways-check",
+            "evidence": "site-m01s02-criteria-constraints-and-project-pathways-response",
+            "activity": "site-m01s02-criteria-constraints-and-project-pathways-activity",
+            "media": "site-m01s02-criteria-constraints-and-project-pathways-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m01s03-workshop-readiness-and-sustainability",
+          "title": "Workshop readiness and sustainability",
+          "content_descriptors": [
+            "Compare sustainable sourcing practices",
+            "Explain ethical and legal considerations for innovation, design and production processes",
+            "Demonstrate safe practices when selecting and using materials, technologies and processes"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S06",
+            "S16"
+          ],
+          "learning_intention": "Explain readiness as a thinking process and connect sustainability decisions across a product's life cycle.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Decision gate: ready, responsible, recorded.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Readiness decision sheet, justified sustainability choice, 10 MCQs and scaffolded response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Decision gate: ready, responsible, recorded",
+            "activity_evidence": "A completed decision sheet and one justified revised decision."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Decision gate: ready, responsible, recorded",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m01s03-workshop-readiness-and-sustainability-theory",
+            "knowledge_check": "site-m01s03-workshop-readiness-and-sustainability-check",
+            "evidence": "site-m01s03-workshop-readiness-and-sustainability-response",
+            "activity": "site-m01s03-workshop-readiness-and-sustainability-activity",
+            "media": "site-m01s03-workshop-readiness-and-sustainability-media"
+          },
+          "substantial_sequence": true
+        }
+      ],
+      "module_review": {
+        "site_id": "site-m01-brief-and-readiness-review",
+        "direct_package_links": [
+          "package-m01s01-read-product-user",
+          "package-m01s02-criteria-constraints-pathways",
+          "package-m01s03-readiness-sustainability"
+        ]
+      }
+    },
+    {
+      "module_id": "m02-communicate-the-design",
+      "title": "Communicate the design",
+      "timing": "Week 2 flexible learning blocks; actual period placement Teacher to confirm",
+      "outcome_codes": [
+        "TE4-PDP-01",
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m02s01-vector-and-bitmap",
+          "title": "Vector and bitmap",
+          "content_descriptors": [
+            "Use a range of sketching and drawing techniques to communicate ideas and solutions",
+            "Communicate the development of design ideas and solutions, using annotations"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S07",
+            "S16"
+          ],
+          "learning_intention": "Explain how vector and bitmap graphics store images, choose an appropriate format for a design purpose, and recognise the limits of automatic tracing.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Format triage.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Format triage with four justifications, tracing-risk note, 10 MCQs and scaffolded comparison.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Format triage",
+            "activity_evidence": "A completed format sort with four written justifications and one tracing-risk note."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Format triage",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m02s01-vector-and-bitmap-theory",
+            "knowledge_check": "site-m02s01-vector-and-bitmap-check",
+            "evidence": "site-m02s01-vector-and-bitmap-response",
+            "activity": "site-m02s01-vector-and-bitmap-activity",
+            "media": "site-m02s01-vector-and-bitmap-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m02s02-inkscape-tools-and-paths",
+          "title": "Inkscape tools and paths",
+          "content_descriptors": [
+            "Use a range of sketching and drawing techniques to communicate ideas and solutions",
+            "Communicate the development of design ideas and solutions, using annotations",
+            "Document design processes when using materials and production technologies"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S07",
+            "S16"
+          ],
+          "learning_intention": "Explain how common Inkscape tool families create and edit objects and paths, and apply a clean, reviewable design workflow.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Path clinic.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Path-clinic observations, tool-purpose reasons, review note, 10 MCQs and scaffolded workflow response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Path clinic",
+            "activity_evidence": "Before-and-after observations, three tool-purpose justifications and a review note."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Path clinic",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m02s02-inkscape-tools-and-paths-theory",
+            "knowledge_check": "site-m02s02-inkscape-tools-and-paths-check",
+            "evidence": "site-m02s02-inkscape-tools-and-paths-response",
+            "activity": "site-m02s02-inkscape-tools-and-paths-activity",
+            "media": "site-m02s02-inkscape-tools-and-paths-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m02s03-legibility-annotation-and-peer-review",
+          "title": "Legibility, annotation and peer review",
+          "content_descriptors": [
+            "Apply design and creative thinking to assess ideas and quality solutions",
+            "Communicate the development of design ideas and solutions, using annotations",
+            "Work collaboratively to test, modify and improve the quality of ideas and solutions"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S07",
+            "S16"
+          ],
+          "learning_intention": "Use legibility principles, design annotations and criteria-based peer review to communicate and improve an idea.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Legibility lab.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Reading-order record, criteria-based feedback slip, annotated revision, 10 MCQs and scaffolded evaluation.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Legibility lab",
+            "activity_evidence": "A reading-order record, one criteria-based feedback slip and one annotated revision proposal."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Legibility lab",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m02s03-legibility-annotation-and-peer-review-theory",
+            "knowledge_check": "site-m02s03-legibility-annotation-and-peer-review-check",
+            "evidence": "site-m02s03-legibility-annotation-and-peer-review-response",
+            "activity": "site-m02s03-legibility-annotation-and-peer-review-activity",
+            "media": "site-m02s03-legibility-annotation-and-peer-review-media"
+          },
+          "substantial_sequence": true
+        }
+      ],
+      "module_review": {
+        "site_id": "site-m02-communicate-the-design-review",
+        "direct_package_links": [
+          "package-m02s01-vector-bitmap",
+          "package-m02s02-inkscape-tools-paths",
+          "package-m02s03-legibility-annotation-review"
+        ]
+      }
+    },
+    {
+      "module_id": "m03-plan-for-production",
+      "title": "Plan for production",
+      "timing": "Week 3 flexible learning blocks; actual period placement Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-MSC-01",
+        "TE4-DES-01",
+        "TE4-PPM-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m03s01-material-properties-and-selection",
+          "title": "Material properties and selection",
+          "content_descriptors": [
+            "Identify the characteristics and properties of materials",
+            "Describe how the properties of materials and production techniques contribute to the quality of solutions",
+            "Justify the selection and use of a range of tools, materials, techniques and technologies"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S08",
+            "S16"
+          ],
+          "learning_intention": "Explain how designers connect measurable and observable material properties to purpose, environment, appearance and production constraints without treating a photograph as a specification.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Build a property decision matrix.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Property decision matrix, provisional recommendation, 10 MCQs and scaffolded material justification.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Build a property decision matrix",
+            "activity_evidence": "Completed matrix and provisional recommendation."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Build a property decision matrix",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m03s01-material-properties-and-selection-theory",
+            "knowledge_check": "site-m03s01-material-properties-and-selection-check",
+            "evidence": "site-m03s01-material-properties-and-selection-response",
+            "activity": "site-m03s01-material-properties-and-selection-activity",
+            "media": "site-m03s01-material-properties-and-selection-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m03s02-measurement-layout-and-resource-efficiency",
+          "title": "Measurement, layout and resource efficiency",
+          "content_descriptors": [
+            "Outline factors affecting the design of products and solutions",
+            "Compare sustainable sourcing practices",
+            "Document design processes when using materials and production technologies"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S08",
+            "S16"
+          ],
+          "learning_intention": "Show how clear measurement information and purposeful layout reduce avoidable error and waste before material is processed.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Paper nesting challenge.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Two annotated layouts, comparison calculation or estimate, 10 MCQs and scaffolded efficiency response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Paper nesting challenge",
+            "activity_evidence": "Two annotated paper layouts and a short comparison."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Paper nesting challenge",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m03s02-measurement-layout-and-resource-efficiency-theory",
+            "knowledge_check": "site-m03s02-measurement-layout-and-resource-efficiency-check",
+            "evidence": "site-m03s02-measurement-layout-and-resource-efficiency-response",
+            "activity": "site-m03s02-measurement-layout-and-resource-efficiency-activity",
+            "media": "site-m03s02-measurement-layout-and-resource-efficiency-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m03s03-files-mounting-and-teacher-approval",
+          "title": "Files, mounting and teacher approval",
+          "content_descriptors": [
+            "Outline factors affecting the design of products and solutions",
+            "Communicate the development of design ideas and solutions, using annotations",
+            "Document design processes when using materials and production technologies"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S08",
+            "S16"
+          ],
+          "learning_intention": "Help students assemble a reviewable digital-and-physical proposal and understand why mounting and authorisation must be considered before production.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Audit a fictional approval pack.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Approval-pack audit, three review questions, version record, 10 MCQs and scaffolded proposal response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Audit a fictional approval pack",
+            "activity_evidence": "Completed readiness audit and three review questions."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Audit a fictional approval pack",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m03s03-files-mounting-and-teacher-approval-theory",
+            "knowledge_check": "site-m03s03-files-mounting-and-teacher-approval-check",
+            "evidence": "site-m03s03-files-mounting-and-teacher-approval-response",
+            "activity": "site-m03s03-files-mounting-and-teacher-approval-activity",
+            "media": "site-m03s03-files-mounting-and-teacher-approval-media"
+          },
+          "substantial_sequence": true
+        }
+      ],
+      "module_review": {
+        "site_id": "site-m03-plan-for-production-review",
+        "direct_package_links": [
+          "package-m03s01-material-properties-and-selection",
+          "package-m03s02-measurement-layout-and-resource-efficiency",
+          "package-m03s03-files-mounting-and-teacher-approval"
+        ]
+      }
+    },
+    {
+      "module_id": "m04-produce-and-control-quality",
+      "title": "Produce and control quality",
+      "timing": "Week 4 flexible learning blocks; actual period placement Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-PDP-01",
+        "TE4-PPM-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m04s01-production-sequence-and-authorisation",
+          "title": "Production sequence and authorisation",
+          "content_descriptors": [
+            "Outline production techniques and materials used by designers, producers and manufacturers",
+            "Demonstrate safe practices when selecting and using materials, technologies and processes",
+            "Document design processes when using materials and production technologies"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S09",
+            "S16"
+          ],
+          "learning_intention": "Explain why production is organised as a dependency-based sequence with explicit teacher-controlled hold points rather than a list of machine instructions.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Build a production-control board.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Production-control board, hold-point explanation, 10 MCQs and scaffolded sequence response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Build a production-control board",
+            "activity_evidence": "Annotated control board and one paragraph explaining the most important hold point."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Build a production-control board",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m04s01-production-sequence-and-authorisation-theory",
+            "knowledge_check": "site-m04s01-production-sequence-and-authorisation-check",
+            "evidence": "site-m04s01-production-sequence-and-authorisation-response",
+            "activity": "site-m04s01-production-sequence-and-authorisation-activity",
+            "media": "site-m04s01-production-sequence-and-authorisation-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m04s02-edges-finishing-and-quality",
+          "title": "Edges, finishing and quality",
+          "content_descriptors": [
+            "Describe how the properties of materials and production techniques contribute to the quality of solutions",
+            "Demonstrate safe practices when selecting and using materials, technologies and processes",
+            "Use factors affecting design to evaluate the quality of ideas and solutions"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S09",
+            "S16"
+          ],
+          "learning_intention": "Develop criteria-based judgement of edge and surface condition while keeping all practical improvement methods under local teacher control.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Turn opinions into quality evidence.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Inspection notes, teacher checkpoint, permitted process evidence, 10 MCQs and scaffolded quality judgement.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Turn opinions into quality evidence",
+            "activity_evidence": "Six rewritten inspection notes and one peer revision."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Teacher-to-confirm practical authority; use the complete non-practical equivalent unless the current local plan, demonstration, controls and authorisation are confirmed.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Turn opinions into quality evidence",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m04s02-edges-finishing-and-quality-theory",
+            "knowledge_check": "site-m04s02-edges-finishing-and-quality-check",
+            "evidence": "site-m04s02-edges-finishing-and-quality-response",
+            "activity": "site-m04s02-edges-finishing-and-quality-activity",
+            "media": "site-m04s02-edges-finishing-and-quality-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m04s03-nesting-offcuts-and-process-evidence",
+          "title": "Nesting, offcuts and process evidence",
+          "content_descriptors": [
+            "Compare sustainable sourcing practices",
+            "Document design processes when using materials and production technologies",
+            "Use factors affecting design to evaluate the quality of ideas and solutions"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S09",
+            "S16"
+          ],
+          "learning_intention": "Connect material-efficiency decisions with responsible offcut handling, traceable evidence and improvement of future production planning.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Edit a process-evidence story.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Five-item evidence story, captions, future layout test, 10 MCQs and scaffolded reflection.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Edit a process-evidence story",
+            "activity_evidence": "Five-item evidence sequence with captions and one improvement proposal."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Edit a process-evidence story",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m04s03-nesting-offcuts-and-process-evidence-theory",
+            "knowledge_check": "site-m04s03-nesting-offcuts-and-process-evidence-check",
+            "evidence": "site-m04s03-nesting-offcuts-and-process-evidence-response",
+            "activity": "site-m04s03-nesting-offcuts-and-process-evidence-activity",
+            "media": "site-m04s03-nesting-offcuts-and-process-evidence-media"
+          },
+          "substantial_sequence": true
+        }
+      ],
+      "module_review": {
+        "site_id": "site-m04-produce-and-control-quality-review",
+        "direct_package_links": [
+          "package-m04s01-production-sequence-and-authorisation",
+          "package-m04s02-edges-finishing-and-quality",
+          "package-m04s03-nesting-offcuts-and-process-evidence"
+        ]
+      }
+    },
+    {
+      "module_id": "m05-finish-test-and-evaluate",
+      "title": "Finish, test and evaluate",
+      "timing": "Week 5 flexible learning blocks; actual period placement Teacher to confirm",
+      "outcome_codes": [
+        "TE4-SDP-01",
+        "TE4-MSC-01",
+        "TE4-DES-01",
+        "TE4-PPM-01",
+        "TE4-SAF-01"
+      ],
+      "sections": [
+        {
+          "section_id": "m05s01-surface-preparation-and-coatings",
+          "title": "Surface preparation and coatings",
+          "content_descriptors": [
+            "Identify the characteristics and properties of materials",
+            "Describe how the properties of materials and production techniques contribute to the quality of solutions",
+            "Justify the selection and use of a range of tools, materials, techniques and technologies"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S10",
+            "S16"
+          ],
+          "learning_intention": "Explain why surface condition and coating-system compatibility affect appearance and service performance without providing a local painting or sanding procedure.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Audit a fictional finish system.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Finish-system map, inspection statement, teacher checkpoint, 10 MCQs and scaffolded justification.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Audit a fictional finish system",
+            "activity_evidence": "Annotated system map and inspection statement."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Teacher-to-confirm practical authority; use the complete non-practical equivalent unless the current local plan, demonstration, controls and authorisation are confirmed.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Audit a fictional finish system",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m05s01-surface-preparation-and-coatings-theory",
+            "knowledge_check": "site-m05s01-surface-preparation-and-coatings-check",
+            "evidence": "site-m05s01-surface-preparation-and-coatings-response",
+            "activity": "site-m05s01-surface-preparation-and-coatings-activity",
+            "media": "site-m05s01-surface-preparation-and-coatings-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m05s02-hanging-stability-and-use",
+          "title": "Hanging, stability and use",
+          "content_descriptors": [
+            "Describe products and systems created by designers, producers and manufacturers",
+            "Create prototypes, models and samples to test materials and production processes",
+            "Use factors affecting design to evaluate the quality of ideas and solutions"
+          ],
+          "source_ids": [
+            "S01",
+            "S02",
+            "S03",
+            "S10",
+            "S16"
+          ],
+          "learning_intention": "Introduce load paths, balance, stability and context-of-use reasoning so students can discuss safe product systems without inventing installation or load specifications.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Reason with a cardboard balance model.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Annotated model, prediction, approved test evidence where authorised, 10 MCQs and scaffolded systems response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Reason with a cardboard balance model",
+            "activity_evidence": "Annotated model diagram, prediction and transfer-limit list."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Teacher-to-confirm practical authority; use the complete non-practical equivalent unless the current local plan, demonstration, controls and authorisation are confirmed.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Reason with a cardboard balance model",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m05s02-hanging-stability-and-use-theory",
+            "knowledge_check": "site-m05s02-hanging-stability-and-use-check",
+            "evidence": "site-m05s02-hanging-stability-and-use-response",
+            "activity": "site-m05s02-hanging-stability-and-use-activity",
+            "media": "site-m05s02-hanging-stability-and-use-media"
+          },
+          "substantial_sequence": true
+        },
+        {
+          "section_id": "m05s03-evaluate-feedback-and-improve",
+          "title": "Evaluate, feedback and improve",
+          "content_descriptors": [
+            "Work collaboratively to test, modify and improve the quality of ideas and solutions",
+            "Evaluate ideas and solutions using written, visual, verbal or multimodal communication forms",
+            "Use factors affecting design to evaluate the quality of ideas and solutions"
+          ],
+          "source_ids": [
+            "S02",
+            "S03",
+            "S10",
+            "S16"
+          ],
+          "learning_intention": "Teach students to make a defensible final judgement from criteria and evidence, use feedback thoughtfully and propose specific future improvements.",
+          "learning_sequence": [
+            "Teach the named theory with the adjacent purposeful visual.",
+            "Complete the verified media or no-stream equivalent pathway.",
+            "Complete the applied activity: Feedback triage and improvement pitch.",
+            "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
+            "Save, export or transfer the selected evidence to My folio as directed."
+          ],
+          "evidence": "Criteria-based evaluation, feedback triage, improvement pitch, 10 MCQs and scaffolded capstone response.",
+          "formative_checks": {
+            "mcq_count": 10,
+            "long_response_count": 1,
+            "activity": "Feedback triage and improvement pitch",
+            "activity_evidence": "Feedback triage table and written improvement pitch."
+          },
+          "adjustments": [
+            "Use the complete no-stream pathway and accessible adjacent explanation.",
+            "Chunk the long response with its three scaffold prompts and allow oral rehearsal or speech-to-text where appropriate.",
+            "Extend through cross-pathway comparison without inventing project specifications."
+          ],
+          "literacy_numeracy_digital": [
+            "Use precise observation, criteria-linked explanation and technical vocabulary.",
+            "Apply relevant measurement, comparison or simple resource reasoning where the section supports it.",
+            "Use browser-local saving, version-aware digital work and evidence export responsibly."
+          ],
+          "safety_workplace": "Local plan, demonstration, controls and authorisation apply.",
+          "resources": [
+            "Named module theory and purposeful visual",
+            "Verified media or no-stream pathway",
+            "Applied Learning Activity: Feedback triage and improvement pitch",
+            "My folio and teacher-confirmed local project information"
+          ],
+          "site_destinations": {
+            "theory": "site-m05s03-evaluate-feedback-and-improve-theory",
+            "knowledge_check": "site-m05s03-evaluate-feedback-and-improve-check",
+            "evidence": "site-m05s03-evaluate-feedback-and-improve-response",
+            "activity": "site-m05s03-evaluate-feedback-and-improve-activity",
+            "media": "site-m05s03-evaluate-feedback-and-improve-media"
+          },
+          "substantial_sequence": true
+        }
+      ],
+      "module_review": {
+        "site_id": "site-m05-finish-test-and-evaluate-review",
+        "direct_package_links": [
+          "package-m05s01-surface-preparation-and-coatings",
+          "package-m05s02-hanging-stability-and-use",
+          "package-m05s03-evaluate-feedback-and-improve"
+        ]
+      }
+    }
+  ],
+  "teacher_to_confirm": [
+    {
+      "id": "TTC-01",
+      "item": "Whole-number lesson count and local rotation or timetable placement for the source wording: 5 weeks (5 x 60-minute lessons per fortnight).",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "All flexible learning blocks",
+      "due_before": "Timetabling and class issue",
+      "smallest_action": "Record the approved period allocation and how the 15 learning packages will be combined or distributed.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-02",
+      "item": "Whether the LED tea-light holder and scrolled pot-plant holder are alternatives, extensions or separately assessed projects.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "Project pathway selection",
+      "due_before": "Students select or receive a pathway",
+      "smallest_action": "Confirm the role of each additional project and communicate it to students.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-03",
+      "item": "Approved plans and the relationship between the photographed Swinging Sign and the Drive CNC metal-sign brief.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "Project planning and practical work",
+      "due_before": "Any production approval",
+      "smallest_action": "Issue the current approved plan or job sheet for each in-use pathway.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-04",
+      "item": "Approved materials, stock form, sizes, quantities, tolerances and any loading criteria.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "Modules 3-5 and every practical block",
+      "due_before": "Material selection or layout becomes a production document",
+      "smallest_action": "Attach the current material and stock specification to the approval pack.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-05",
+      "item": "Tools, machines, student/teacher operating roles, demonstrations, supervision, local risk controls and evidence permissions.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "Every practical block",
+      "due_before": "Each affected practical session",
+      "smallest_action": "Confirm the current local procedure and explicit authorisation checkpoint.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-06",
+      "item": "Swinging Sign mounting system, wind/load context, installation boundary and controlled test criteria.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "W3-C and W5-B",
+      "due_before": "Mounting approval or any use test",
+      "smallest_action": "Issue the approved mounting and testing criteria; otherwise retain model-only learning.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-07",
+      "item": "Tea-light policy and approved holder design. The current course uses LED tea lights only unless a different policy is formally confirmed.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "LED tea-light pathway",
+      "due_before": "Pathway approval and any function check",
+      "smallest_action": "Confirm the LED-only rule or provide the authorised alternative policy and plan.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-08",
+      "item": "Pot-plant holder loading, pot size, stability, support and approved testing criteria.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "Pot-plant holder pathway",
+      "due_before": "Design approval or any loading test",
+      "smallest_action": "Record the approved design load and controlled test method; otherwise retain model-only learning.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-09",
+      "item": "Formal assessment notification, outcomes, rubric, marks or weighting, due date, submission route and evidence requirements.",
+      "owner": "Faculty / assessment coordinator",
+      "affected_scope": "Assessment and formal submission",
+      "due_before": "Any formal assessment advice is issued",
+      "smallest_action": "Link the approved notification; until then keep the website and program as assessment orientation only.",
+      "status": "Teacher to confirm"
+    },
+    {
+      "id": "TTC-10",
+      "item": "Inkscape version, file naming, SVG preparation, scale convention and machine-ready approval workflow.",
+      "owner": "Class teacher / faculty",
+      "affected_scope": "Modules 2-4",
+      "due_before": "File submission for production review",
+      "smallest_action": "Issue the current file checklist and approval state labels.",
+      "status": "Teacher to confirm"
+    }
+  ],
+  "site_mapping": [
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-theory",
+      "route": "modules/module-01.html",
+      "anchor": "m01s01-read-the-product-and-user",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Read the product and user",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-check",
+      "route": "modules/module-01.html",
+      "anchor": "package-m01s01-read-product-user",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-response",
+      "route": "modules/module-01.html",
+      "anchor": "m01s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-activity",
+      "route": "activities.html",
+      "anchor": "ala-m01s01-evidence-detective",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Evidence detective",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s01-read-the-product-and-user-media",
+      "route": "videos.html",
+      "anchor": "m01s01-read-the-product-and-user-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s01-read-the-product-and-user"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-theory",
+      "route": "modules/module-01.html",
+      "anchor": "m01s02-criteria-constraints-and-project-pathways",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Criteria, constraints and project pathways",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-check",
+      "route": "modules/module-01.html",
+      "anchor": "package-m01s02-criteria-constraints-pathways",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-response",
+      "route": "modules/module-01.html",
+      "anchor": "m01s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-activity",
+      "route": "activities.html",
+      "anchor": "ala-m01s02-pathway-brief-studio",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Pathway brief studio",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s02-criteria-constraints-and-project-pathways-media",
+      "route": "videos.html",
+      "anchor": "m01s02-criteria-constraints-and-project-pathways-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s02-criteria-constraints-and-project-pathways"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-theory",
+      "route": "modules/module-01.html",
+      "anchor": "m01s03-workshop-readiness-and-sustainability",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Workshop readiness and sustainability",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-check",
+      "route": "modules/module-01.html",
+      "anchor": "package-m01s03-readiness-sustainability",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-response",
+      "route": "modules/module-01.html",
+      "anchor": "m01s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-activity",
+      "route": "activities.html",
+      "anchor": "ala-m01s03-decision-gate",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Decision gate: ready, responsible, recorded",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m01s03-workshop-readiness-and-sustainability-media",
+      "route": "videos.html",
+      "anchor": "m01s03-workshop-readiness-and-sustainability-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m01-brief-and-readiness",
+      "section_id": "m01s03-workshop-readiness-and-sustainability"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-theory",
+      "route": "modules/module-02.html",
+      "anchor": "m02s01-vector-and-bitmap",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Vector and bitmap",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-check",
+      "route": "modules/module-02.html",
+      "anchor": "package-m02s01-vector-bitmap",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-response",
+      "route": "modules/module-02.html",
+      "anchor": "m02s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-activity",
+      "route": "activities.html",
+      "anchor": "ala-m02s01-format-triage",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Format triage",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s01-vector-and-bitmap-media",
+      "route": "videos.html",
+      "anchor": "m02s01-vector-and-bitmap-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s01-vector-and-bitmap"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-theory",
+      "route": "modules/module-02.html",
+      "anchor": "m02s02-inkscape-tools-and-paths",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Inkscape tools and paths",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-check",
+      "route": "modules/module-02.html",
+      "anchor": "package-m02s02-inkscape-tools-paths",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-response",
+      "route": "modules/module-02.html",
+      "anchor": "m02s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-activity",
+      "route": "activities.html",
+      "anchor": "ala-m02s02-path-clinic",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Path clinic",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s02-inkscape-tools-and-paths-media",
+      "route": "videos.html",
+      "anchor": "m02s02-inkscape-tools-and-paths-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s02-inkscape-tools-and-paths"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-theory",
+      "route": "modules/module-02.html",
+      "anchor": "m02s03-legibility-annotation-and-peer-review",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Legibility, annotation and peer review",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-check",
+      "route": "modules/module-02.html",
+      "anchor": "package-m02s03-legibility-annotation-review",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-response",
+      "route": "modules/module-02.html",
+      "anchor": "m02s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-activity",
+      "route": "activities.html",
+      "anchor": "ala-m02s03-legibility-lab",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Legibility lab",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m02s03-legibility-annotation-and-peer-review-media",
+      "route": "videos.html",
+      "anchor": "m02s03-legibility-annotation-and-peer-review-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m02-communicate-the-design",
+      "section_id": "m02s03-legibility-annotation-and-peer-review"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-theory",
+      "route": "modules/module-03.html",
+      "anchor": "m03s01-material-properties-and-selection",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Material properties and selection",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-check",
+      "route": "modules/module-03.html",
+      "anchor": "package-m03s01-material-properties-and-selection",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-response",
+      "route": "modules/module-03.html",
+      "anchor": "m03s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-activity",
+      "route": "activities.html",
+      "anchor": "ala-m03s01-property-decision-matrix",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Build a property decision matrix",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s01-material-properties-and-selection-media",
+      "route": "videos.html",
+      "anchor": "m03s01-material-properties-and-selection-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s01-material-properties-and-selection"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-theory",
+      "route": "modules/module-03.html",
+      "anchor": "m03s02-measurement-layout-and-resource-efficiency",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Measurement, layout and resource efficiency",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-check",
+      "route": "modules/module-03.html",
+      "anchor": "package-m03s02-measurement-layout-and-resource-efficiency",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-response",
+      "route": "modules/module-03.html",
+      "anchor": "m03s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-activity",
+      "route": "activities.html",
+      "anchor": "ala-m03s02-paper-nesting-challenge",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Paper nesting challenge",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s02-measurement-layout-and-resource-efficiency-media",
+      "route": "videos.html",
+      "anchor": "m03s02-measurement-layout-and-resource-efficiency-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s02-measurement-layout-and-resource-efficiency"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-theory",
+      "route": "modules/module-03.html",
+      "anchor": "m03s03-files-mounting-and-teacher-approval",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Files, mounting and teacher approval",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-check",
+      "route": "modules/module-03.html",
+      "anchor": "package-m03s03-files-mounting-and-teacher-approval",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-response",
+      "route": "modules/module-03.html",
+      "anchor": "m03s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-activity",
+      "route": "activities.html",
+      "anchor": "ala-m03s03-approval-pack-audit",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Audit a fictional approval pack",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m03s03-files-mounting-and-teacher-approval-media",
+      "route": "videos.html",
+      "anchor": "m03s03-files-mounting-and-teacher-approval-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m03-plan-for-production",
+      "section_id": "m03s03-files-mounting-and-teacher-approval"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-theory",
+      "route": "modules/module-04.html",
+      "anchor": "m04s01-production-sequence-and-authorisation",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Production sequence and authorisation",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-check",
+      "route": "modules/module-04.html",
+      "anchor": "package-m04s01-production-sequence-and-authorisation",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-response",
+      "route": "modules/module-04.html",
+      "anchor": "m04s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-activity",
+      "route": "activities.html",
+      "anchor": "ala-m04s01-production-control-board",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Build a production-control board",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s01-production-sequence-and-authorisation-media",
+      "route": "videos.html",
+      "anchor": "m04s01-production-sequence-and-authorisation-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s01-production-sequence-and-authorisation"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-theory",
+      "route": "modules/module-04.html",
+      "anchor": "m04s02-edges-finishing-and-quality",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Edges, finishing and quality",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-check",
+      "route": "modules/module-04.html",
+      "anchor": "package-m04s02-edges-finishing-and-quality",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-response",
+      "route": "modules/module-04.html",
+      "anchor": "m04s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-activity",
+      "route": "activities.html",
+      "anchor": "ala-m04s02-quality-language-clinic",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Turn opinions into quality evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s02-edges-finishing-and-quality-media",
+      "route": "videos.html",
+      "anchor": "m04s02-edges-finishing-and-quality-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s02-edges-finishing-and-quality"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-theory",
+      "route": "modules/module-04.html",
+      "anchor": "m04s03-nesting-offcuts-and-process-evidence",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Nesting, offcuts and process evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-check",
+      "route": "modules/module-04.html",
+      "anchor": "package-m04s03-nesting-offcuts-and-process-evidence",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-response",
+      "route": "modules/module-04.html",
+      "anchor": "m04s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-activity",
+      "route": "activities.html",
+      "anchor": "ala-m04s03-evidence-editor",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Edit a process-evidence story",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m04s03-nesting-offcuts-and-process-evidence-media",
+      "route": "videos.html",
+      "anchor": "m04s03-nesting-offcuts-and-process-evidence-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m04-produce-and-control-quality",
+      "section_id": "m04s03-nesting-offcuts-and-process-evidence"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-theory",
+      "route": "modules/module-05.html",
+      "anchor": "m05s01-surface-preparation-and-coatings",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Surface preparation and coatings",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-check",
+      "route": "modules/module-05.html",
+      "anchor": "package-m05s01-surface-preparation-and-coatings",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-response",
+      "route": "modules/module-05.html",
+      "anchor": "m05s01-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-activity",
+      "route": "activities.html",
+      "anchor": "ala-m05s01-finish-system-audit",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Audit a fictional finish system",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s01-surface-preparation-and-coatings-media",
+      "route": "videos.html",
+      "anchor": "m05s01-surface-preparation-and-coatings-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s01-surface-preparation-and-coatings"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-theory",
+      "route": "modules/module-05.html",
+      "anchor": "m05s02-hanging-stability-and-use",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Hanging, stability and use",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-check",
+      "route": "modules/module-05.html",
+      "anchor": "package-m05s02-hanging-stability-and-use",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-response",
+      "route": "modules/module-05.html",
+      "anchor": "m05s02-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-activity",
+      "route": "activities.html",
+      "anchor": "ala-m05s02-cardboard-balance-model",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Reason with a cardboard balance model",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s02-hanging-stability-and-use-media",
+      "route": "videos.html",
+      "anchor": "m05s02-hanging-stability-and-use-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s02-hanging-stability-and-use"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-theory",
+      "route": "modules/module-05.html",
+      "anchor": "m05s03-evaluate-feedback-and-improve",
+      "audience": "student",
+      "purpose": "Theory, purposeful visual and learning pathway for Evaluate, feedback and improve",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-check",
+      "route": "modules/module-05.html",
+      "anchor": "package-m05s03-evaluate-feedback-and-improve",
+      "audience": "student",
+      "purpose": "Closed formative package with exactly 10 feedback-rich MCQs",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-response",
+      "route": "modules/module-05.html",
+      "anchor": "m05s03-lr01",
+      "audience": "student",
+      "purpose": "Scaffolded higher-order long response and saved learning evidence",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-activity",
+      "route": "activities.html",
+      "anchor": "ala-m05s03-feedback-triage",
+      "audience": "student",
+      "purpose": "Applied Learning Activity: Feedback triage and improvement pitch",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m05s03-evaluate-feedback-and-improve-media",
+      "route": "videos.html",
+      "anchor": "m05s03-evaluate-feedback-and-improve-media",
+      "audience": "student",
+      "purpose": "Verified optional media or complete no-stream equivalent pathway",
+      "module_id": "m05-finish-test-and-evaluate",
+      "section_id": "m05s03-evaluate-feedback-and-improve"
+    },
+    {
+      "site_id": "site-m01-brief-and-readiness-review",
+      "route": "modules/module-01.html",
+      "anchor": "module-01-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m01-brief-and-readiness"
+    },
+    {
+      "site_id": "site-m02-communicate-the-design-review",
+      "route": "modules/module-02.html",
+      "anchor": "module-02-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m02-communicate-the-design"
+    },
+    {
+      "site_id": "site-m03-plan-for-production-review",
+      "route": "modules/module-03.html",
+      "anchor": "module-03-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m03-plan-for-production"
+    },
+    {
+      "site_id": "site-m04-produce-and-control-quality-review",
+      "route": "modules/module-04.html",
+      "anchor": "module-04-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m04-produce-and-control-quality"
+    },
+    {
+      "site_id": "site-m05-finish-test-and-evaluate-review",
+      "route": "modules/module-05.html",
+      "anchor": "module-05-review",
+      "audience": "student",
+      "purpose": "Visible module review and checklist linking all three closed learning packages",
+      "module_id": "m05-finish-test-and-evaluate"
+    }
+  ],
+  "delivery_register": {
+    "status": "editable appendix in the teaching-program DOCX; actual fields blank before delivery",
+    "source_duration": "5 weeks (5 x 60-minute lessons per fortnight)",
+    "period_count_state": "Teacher to confirm",
+    "entries": [
+      {
+        "period": "W1-A",
+        "planned_focus": "Read the product and user (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m01s01-read-the-product-and-user-theory",
+          "site-m01s01-read-the-product-and-user-check",
+          "site-m01s01-read-the-product-and-user-response",
+          "site-m01s01-read-the-product-and-user-activity",
+          "site-m01s01-read-the-product-and-user-media"
+        ],
+        "planned_evidence": "Four-note evidence set, revised product-analysis sentence, 10 feedback-rich MCQs and the scaffolded analysis response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W1-B",
+        "planned_focus": "Criteria, constraints and project pathways (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m01s02-criteria-constraints-and-project-pathways-theory",
+          "site-m01s02-criteria-constraints-and-project-pathways-check",
+          "site-m01s02-criteria-constraints-and-project-pathways-response",
+          "site-m01s02-criteria-constraints-and-project-pathways-activity",
+          "site-m01s02-criteria-constraints-and-project-pathways-media"
+        ],
+        "planned_evidence": "Draft brief, labelled criteria and constraints, pathway trade-off, 10 MCQs and scaffolded justification.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W1-C",
+        "planned_focus": "Workshop readiness and sustainability (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m01s03-workshop-readiness-and-sustainability-theory",
+          "site-m01s03-workshop-readiness-and-sustainability-check",
+          "site-m01s03-workshop-readiness-and-sustainability-response",
+          "site-m01s03-workshop-readiness-and-sustainability-activity",
+          "site-m01s03-workshop-readiness-and-sustainability-media"
+        ],
+        "planned_evidence": "Readiness decision sheet, justified sustainability choice, 10 MCQs and scaffolded response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W2-A",
+        "planned_focus": "Vector and bitmap (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m02s01-vector-and-bitmap-theory",
+          "site-m02s01-vector-and-bitmap-check",
+          "site-m02s01-vector-and-bitmap-response",
+          "site-m02s01-vector-and-bitmap-activity",
+          "site-m02s01-vector-and-bitmap-media"
+        ],
+        "planned_evidence": "Format triage with four justifications, tracing-risk note, 10 MCQs and scaffolded comparison.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W2-B",
+        "planned_focus": "Inkscape tools and paths (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m02s02-inkscape-tools-and-paths-theory",
+          "site-m02s02-inkscape-tools-and-paths-check",
+          "site-m02s02-inkscape-tools-and-paths-response",
+          "site-m02s02-inkscape-tools-and-paths-activity",
+          "site-m02s02-inkscape-tools-and-paths-media"
+        ],
+        "planned_evidence": "Path-clinic observations, tool-purpose reasons, review note, 10 MCQs and scaffolded workflow response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W2-C",
+        "planned_focus": "Legibility, annotation and peer review (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m02s03-legibility-annotation-and-peer-review-theory",
+          "site-m02s03-legibility-annotation-and-peer-review-check",
+          "site-m02s03-legibility-annotation-and-peer-review-response",
+          "site-m02s03-legibility-annotation-and-peer-review-activity",
+          "site-m02s03-legibility-annotation-and-peer-review-media"
+        ],
+        "planned_evidence": "Reading-order record, criteria-based feedback slip, annotated revision, 10 MCQs and scaffolded evaluation.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W3-A",
+        "planned_focus": "Material properties and selection (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m03s01-material-properties-and-selection-theory",
+          "site-m03s01-material-properties-and-selection-check",
+          "site-m03s01-material-properties-and-selection-response",
+          "site-m03s01-material-properties-and-selection-activity",
+          "site-m03s01-material-properties-and-selection-media"
+        ],
+        "planned_evidence": "Property decision matrix, provisional recommendation, 10 MCQs and scaffolded material justification.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W3-B",
+        "planned_focus": "Measurement, layout and resource efficiency (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m03s02-measurement-layout-and-resource-efficiency-theory",
+          "site-m03s02-measurement-layout-and-resource-efficiency-check",
+          "site-m03s02-measurement-layout-and-resource-efficiency-response",
+          "site-m03s02-measurement-layout-and-resource-efficiency-activity",
+          "site-m03s02-measurement-layout-and-resource-efficiency-media"
+        ],
+        "planned_evidence": "Two annotated layouts, comparison calculation or estimate, 10 MCQs and scaffolded efficiency response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W3-C",
+        "planned_focus": "Files, mounting and teacher approval (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m03s03-files-mounting-and-teacher-approval-theory",
+          "site-m03s03-files-mounting-and-teacher-approval-check",
+          "site-m03s03-files-mounting-and-teacher-approval-response",
+          "site-m03s03-files-mounting-and-teacher-approval-activity",
+          "site-m03s03-files-mounting-and-teacher-approval-media"
+        ],
+        "planned_evidence": "Approval-pack audit, three review questions, version record, 10 MCQs and scaffolded proposal response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W4-A",
+        "planned_focus": "Production sequence and authorisation (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m04s01-production-sequence-and-authorisation-theory",
+          "site-m04s01-production-sequence-and-authorisation-check",
+          "site-m04s01-production-sequence-and-authorisation-response",
+          "site-m04s01-production-sequence-and-authorisation-activity",
+          "site-m04s01-production-sequence-and-authorisation-media"
+        ],
+        "planned_evidence": "Production-control board, hold-point explanation, 10 MCQs and scaffolded sequence response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W4-B",
+        "planned_focus": "Edges, finishing and quality (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m04s02-edges-finishing-and-quality-theory",
+          "site-m04s02-edges-finishing-and-quality-check",
+          "site-m04s02-edges-finishing-and-quality-response",
+          "site-m04s02-edges-finishing-and-quality-activity",
+          "site-m04s02-edges-finishing-and-quality-media"
+        ],
+        "planned_evidence": "Inspection notes, teacher checkpoint, permitted process evidence, 10 MCQs and scaffolded quality judgement.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W4-C",
+        "planned_focus": "Nesting, offcuts and process evidence (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m04s03-nesting-offcuts-and-process-evidence-theory",
+          "site-m04s03-nesting-offcuts-and-process-evidence-check",
+          "site-m04s03-nesting-offcuts-and-process-evidence-response",
+          "site-m04s03-nesting-offcuts-and-process-evidence-activity",
+          "site-m04s03-nesting-offcuts-and-process-evidence-media"
+        ],
+        "planned_evidence": "Five-item evidence story, captions, future layout test, 10 MCQs and scaffolded reflection.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W5-A",
+        "planned_focus": "Surface preparation and coatings (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m05s01-surface-preparation-and-coatings-theory",
+          "site-m05s01-surface-preparation-and-coatings-check",
+          "site-m05s01-surface-preparation-and-coatings-response",
+          "site-m05s01-surface-preparation-and-coatings-activity",
+          "site-m05s01-surface-preparation-and-coatings-media"
+        ],
+        "planned_evidence": "Finish-system map, inspection statement, teacher checkpoint, 10 MCQs and scaffolded justification.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W5-B",
+        "planned_focus": "Hanging, stability and use (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m05s02-hanging-stability-and-use-theory",
+          "site-m05s02-hanging-stability-and-use-check",
+          "site-m05s02-hanging-stability-and-use-response",
+          "site-m05s02-hanging-stability-and-use-activity",
+          "site-m05s02-hanging-stability-and-use-media"
+        ],
+        "planned_evidence": "Annotated model, prediction, approved test evidence where authorised, 10 MCQs and scaffolded systems response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      },
+      {
+        "period": "W5-C",
+        "planned_focus": "Evaluate, feedback and improve (flexible learning block; not a claimed timetable period)",
+        "site_ids": [
+          "site-m05s03-evaluate-feedback-and-improve-theory",
+          "site-m05s03-evaluate-feedback-and-improve-check",
+          "site-m05s03-evaluate-feedback-and-improve-response",
+          "site-m05s03-evaluate-feedback-and-improve-activity",
+          "site-m05s03-evaluate-feedback-and-improve-media"
+        ],
+        "planned_evidence": "Criteria-based evaluation, feedback triage, improvement pitch, 10 MCQs and scaffolded capstone response.",
+        "date_taught": "",
+        "teacher_initials": "",
+        "completion_or_variance": "",
+        "evidence_checked": "",
+        "adjustments": "",
+        "follow_up": ""
+      }
+    ]
+  },
+  "assessment_boundary": {
+    "state": "Teacher to confirm",
+    "student_site_role": "assessment orientation only",
+    "unconfirmed": [
+      "notification",
+      "rubric",
+      "marks or weighting",
+      "due date",
+      "submission route",
+      "final evidence requirements"
+    ]
+  },
+  "privacy_and_source_notes": {
+    "student_names": "none included",
+    "staff_attribution": "omitted because teacher sources conflict",
+    "swinging_sign_photo": "visible personalisation remains outside public assets; privacy-safe generated hero used",
+    "holder_photo_release_authority": "LED tea-light holder and scrolled pot-plant holder photographs are teacher-authorised for this course release only; underlying ownership is not asserted and third-party reuse is not granted",
+    "swinging_sign_photo_release_boundary": "the supplied personalised Swinging Sign photograph remains outside public assets; the privacy-safe generated hero is used for release",
+    "source_location_policy": "raw Drive IDs and local paths remain in the machine source record, not in teacher-facing tables"
+  },
+  "render_qa": {
+    "page_count": 8,
+    "inspection_state": "every rendered page visually inspected",
+    "layout_state": "passed after final render",
+    "page_size": "A4 landscape",
+    "teaching_table_body": "9.5 pt",
+    "teaching_columns": [
+      "P",
+      "Type",
+      "Focus",
+      "Teaching and learning",
+      "Syllabus content",
+      "Evidence / outcomes"
+    ],
+    "page_count_exception": {
+      "standard_target": "compact near 1 + ceil(N/10)",
+      "accepted_page_count": 8,
+      "rationale": "Each of the 15 source-bound learning packages retains one unsplit row, the required six-column mapping, five-week grouping and a minimum 9.5 pt teaching-table body. The program also retains the exact outcomes, whole-course implementation controls, a 10-item Teacher to confirm register and a writable 15-entry delivery register. The final flow uses available page area; further compaction would split rows, clip content or reduce classroom readability and writable space."
+    }
+  },
+  "accessibility_qa": {
+    "automated_findings": {
+      "high": 0,
+      "medium": 3,
+      "low": 0
+    },
+    "review_state": "passed with three reviewed semantic exceptions",
+    "semantic_exceptions": [
+      "one-row metric strip with labels and values in each cell; no column-header row exists",
+      "paired-label program metadata grid; no column-header row exists",
+      "single-cell timetable-boundary callout; non-data layout table"
+    ],
+    "data_table_state": "all outcome, teaching, control-register and delivery-register tables mark and repeat their true header row"
+  },
+  "files": [
+    {
+      "path": "Swinging-Sign-Teaching-Program-v1.0.docx",
+      "sha256": "ec0a32ab41fadf1e0358e531e0d77a7237c9f5e75e46a91da0fb4e0978080492",
+      "role": "editable-program-and-delivery-register"
+    },
+    {
+      "path": "Swinging-Sign-Teaching-Program-v1.0.pdf",
+      "sha256": "4387aa1714b536d9ef30cabde8b9323a4731bc19067904bc915a0d2102b9c769",
+      "role": "rendered-program"
+    },
+    {
+      "path": "teacher-program-site-map.json",
+      "sha256": "43fa55751a73fc533885bf767d56b224ed7f8b60e28b763dee8e73c9d3029cf5",
+      "role": "site-map"
+    }
+  ]
+}
