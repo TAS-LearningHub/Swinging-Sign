@@ -385,9 +385,10 @@ textarea { width: 100%; min-height: 180px; padding: 0.8rem; border: 1px solid #8
 }
 
 @media print {
-  .site-header, .footer, .nav-toggle, .button, .open-larger, .video-modal, .image-modal, .package-actions, .module-aside, .folio-tools, .module-nav { display: none !important; }
+  .site-header, .footer, .nav-toggle, .button, .open-larger, .video-modal, .image-modal, .package-actions, .module-aside, .folio-tools, .module-nav, .skip-link, [data-folio-image], label[for^="image-folio-"], .file-help, [data-remove-folio-image] { display: none !important; }
   body { background: #fff; color: #000; font-size: 11pt; }
   .wrap { width: 100%; }
+  .module-layout { display: block; padding: 0; }
   .page-hero, .module-hero { padding: 0 0 1rem; background: #fff; color: #000; }
   .page-hero h1, .page-hero h2, .module-hero h1, .module-hero h2 { color: #000; }
   .learning-section, .folio-stage, .card, .module-review { break-inside: avoid; box-shadow: none; }
