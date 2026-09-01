@@ -191,7 +191,7 @@
       "route": "modules/module-02.html",
       "anchor": "m02s02-inkscape-tools-and-paths",
       "audience": "student",
-      "purpose": "Theory, purposeful visual and learning pathway for Inkscape tools and paths",
+      "purpose": "Theory, purposeful visual and learning pathway for Onshape sketches and features",
       "module_id": "m02-communicate-the-design",
       "section_id": "m02s02-inkscape-tools-and-paths"
     },
@@ -218,7 +218,7 @@
       "route": "activities.html",
       "anchor": "ala-m02s02-path-clinic",
       "audience": "student",
-      "purpose": "Applied Learning Activity: Path clinic",
+      "purpose": "Applied Learning Activity: Onshape constraint clinic",
       "module_id": "m02-communicate-the-design",
       "section_id": "m02s02-inkscape-tools-and-paths"
     },
@@ -371,7 +371,7 @@
       "route": "modules/module-03.html",
       "anchor": "m03s03-files-mounting-and-teacher-approval",
       "audience": "student",
-      "purpose": "Theory, purposeful visual and learning pathway for Files, mounting and teacher approval",
+      "purpose": "Theory, purposeful visual and learning pathway for Onshape drawings, mounting and approval",
       "module_id": "m03-plan-for-production",
       "section_id": "m03s03-files-mounting-and-teacher-approval"
     },

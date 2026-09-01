@@ -21,7 +21,7 @@
   "source_contract": {
     "artifact_id": "stage4-swinging-sign-source-map-v1.0",
     "version": "1.0",
-    "sha256": "49279c45f415aa2911dbc3710b94f4950cac945f3b59a0f4e31dcdac1a8e981f"
+    "sha256": "d8e41776e390c2f9e5c7e1bcdeebc86a7ae289892b1f25a3c02f7ca846d2878e"
   },
   "integration_baseline": {
     "artifact_id": "stage4-swinging-sign-build-state-provisional",
@@ -364,7 +364,7 @@
         },
         {
           "section_id": "m02s02-inkscape-tools-and-paths",
-          "title": "Inkscape tools and paths",
+          "title": "Onshape sketches and features",
           "content_descriptors": [
             "Use a range of sketching and drawing techniques to communicate ideas and solutions",
             "Communicate the development of design ideas and solutions, using annotations",
@@ -374,22 +374,24 @@
             "S02",
             "S03",
             "S07",
-            "S16"
+            "S16",
+            "S19",
+            "S20"
           ],
-          "learning_intention": "Explain how common Inkscape tool families create and edit objects and paths, and apply a clean, reviewable design workflow.",
+          "learning_intention": "Explain how an Onshape sketch uses a plane, geometry, dimensions and constraints to capture design intent, then show how a basic feature turns that sketch into a reviewable 3D form.",
           "learning_sequence": [
             "Teach the named theory with the adjacent purposeful visual.",
             "Complete the verified media or no-stream equivalent pathway.",
-            "Complete the applied activity: Path clinic.",
+            "Complete the applied activity: Onshape constraint clinic.",
             "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
             "Save, export or transfer the selected evidence to My folio as directed."
           ],
-          "evidence": "Path-clinic observations, tool-purpose reasons, review note, 10 MCQs and scaffolded workflow response.",
+          "evidence": "Onshape constraint-clinic observations, dimension and constraint reasons, sketch-to-feature explanation, review note, 10 MCQs and scaffolded workflow response.",
           "formative_checks": {
             "mcq_count": 10,
             "long_response_count": 1,
-            "activity": "Path clinic",
-            "activity_evidence": "Before-and-after observations, three tool-purpose justifications and a review note."
+            "activity": "Onshape constraint clinic",
+            "activity_evidence": "A labelled sketch-state check, two constraint or dimension justifications, a sketch-to-feature explanation and a version note."
           },
           "adjustments": [
             "Use the complete no-stream pathway and accessible adjacent explanation.",
@@ -405,7 +407,7 @@
           "resources": [
             "Named module theory and purposeful visual",
             "Verified media or no-stream pathway",
-            "Applied Learning Activity: Path clinic",
+            "Applied Learning Activity: Onshape constraint clinic",
             "My folio and teacher-confirmed local project information"
           ],
           "site_destinations": {
@@ -605,7 +607,7 @@
         },
         {
           "section_id": "m03s03-files-mounting-and-teacher-approval",
-          "title": "Files, mounting and teacher approval",
+          "title": "Onshape drawings, mounting and approval",
           "content_descriptors": [
             "Outline factors affecting the design of products and solutions",
             "Communicate the development of design ideas and solutions, using annotations",
@@ -615,9 +617,10 @@
             "S02",
             "S03",
             "S08",
-            "S16"
+            "S16",
+            "S19"
           ],
-          "learning_intention": "Help students assemble a reviewable digital-and-physical proposal and understand why mounting and authorisation must be considered before production.",
+          "learning_intention": "Help students assemble a reviewable Onshape drawing-and-physical proposal and understand why mounting and authorisation must be considered before production.",
           "learning_sequence": [
             "Teach the named theory with the adjacent purposeful visual.",
             "Complete the verified media or no-stream equivalent pathway.",
@@ -625,12 +628,12 @@
             "Complete exactly 10 feedback-rich MCQs and one scaffolded higher-order response.",
             "Save, export or transfer the selected evidence to My folio as directed."
           ],
-          "evidence": "Approval-pack audit, three review questions, version record, 10 MCQs and scaffolded proposal response.",
+          "evidence": "Onshape drawing-and-approval audit, three review questions, version record, 10 MCQs and scaffolded proposal response.",
           "formative_checks": {
             "mcq_count": 10,
             "long_response_count": 1,
             "activity": "Audit a fictional approval pack",
-            "activity_evidence": "Completed readiness audit and three review questions."
+            "activity_evidence": "Completed Onshape drawing-and-approval audit and three review questions."
           },
           "adjustments": [
             "Use the complete no-stream pathway and accessible adjacent explanation.",
@@ -1127,10 +1130,10 @@
     },
     {
       "id": "TTC-10",
-      "item": "Inkscape version, file naming, SVG preparation, scale convention and machine-ready approval workflow.",
+      "item": "Onshape document sharing, class folder, file naming, units, drawing template, dimension and view conventions, export and production approval workflow.",
       "owner": "Class teacher / faculty",
       "affected_scope": "Modules 2-4",
-      "due_before": "File submission for production review",
+      "due_before": "Onshape drawing or export submission for production review",
       "smallest_action": "Issue the current file checklist and approval state labels.",
       "status": "Teacher to confirm"
     }
@@ -1321,7 +1324,7 @@
       "route": "modules/module-02.html",
       "anchor": "m02s02-inkscape-tools-and-paths",
       "audience": "student",
-      "purpose": "Theory, purposeful visual and learning pathway for Inkscape tools and paths",
+      "purpose": "Theory, purposeful visual and learning pathway for Onshape sketches and features",
       "module_id": "m02-communicate-the-design",
       "section_id": "m02s02-inkscape-tools-and-paths"
     },
@@ -1348,7 +1351,7 @@
       "route": "activities.html",
       "anchor": "ala-m02s02-path-clinic",
       "audience": "student",
-      "purpose": "Applied Learning Activity: Path clinic",
+      "purpose": "Applied Learning Activity: Onshape constraint clinic",
       "module_id": "m02-communicate-the-design",
       "section_id": "m02s02-inkscape-tools-and-paths"
     },
@@ -1501,7 +1504,7 @@
       "route": "modules/module-03.html",
       "anchor": "m03s03-files-mounting-and-teacher-approval",
       "audience": "student",
-      "purpose": "Theory, purposeful visual and learning pathway for Files, mounting and teacher approval",
+      "purpose": "Theory, purposeful visual and learning pathway for Onshape drawings, mounting and approval",
       "module_id": "m03-plan-for-production",
       "section_id": "m03s03-files-mounting-and-teacher-approval"
     },
@@ -1931,7 +1934,7 @@
       },
       {
         "period": "W2-B",
-        "planned_focus": "Inkscape tools and paths (flexible learning block; not a claimed timetable period)",
+        "planned_focus": "Onshape sketches and features (flexible learning block; not a claimed timetable period)",
         "site_ids": [
           "site-m02s02-inkscape-tools-and-paths-theory",
           "site-m02s02-inkscape-tools-and-paths-check",
@@ -1939,7 +1942,7 @@
           "site-m02s02-inkscape-tools-and-paths-activity",
           "site-m02s02-inkscape-tools-and-paths-media"
         ],
-        "planned_evidence": "Path-clinic observations, tool-purpose reasons, review note, 10 MCQs and scaffolded workflow response.",
+        "planned_evidence": "Onshape constraint-clinic observations, dimension and constraint reasons, sketch-to-feature explanation, review note, 10 MCQs and scaffolded workflow response.",
         "date_taught": "",
         "teacher_initials": "",
         "completion_or_variance": "",
@@ -2003,7 +2006,7 @@
       },
       {
         "period": "W3-C",
-        "planned_focus": "Files, mounting and teacher approval (flexible learning block; not a claimed timetable period)",
+        "planned_focus": "Onshape drawings, mounting and approval (flexible learning block; not a claimed timetable period)",
         "site_ids": [
           "site-m03s03-files-mounting-and-teacher-approval-theory",
           "site-m03s03-files-mounting-and-teacher-approval-check",
@@ -2011,7 +2014,7 @@
           "site-m03s03-files-mounting-and-teacher-approval-activity",
           "site-m03s03-files-mounting-and-teacher-approval-media"
         ],
-        "planned_evidence": "Approval-pack audit, three review questions, version record, 10 MCQs and scaffolded proposal response.",
+        "planned_evidence": "Onshape drawing-and-approval audit, three review questions, version record, 10 MCQs and scaffolded proposal response.",
         "date_taught": "",
         "teacher_initials": "",
         "completion_or_variance": "",
@@ -2186,17 +2189,17 @@
   "files": [
     {
       "path": "Swinging-Sign-Teaching-Program-v1.0.docx",
-      "sha256": "ec0a32ab41fadf1e0358e531e0d77a7237c9f5e75e46a91da0fb4e0978080492",
+      "sha256": "377ffe0c186c6962584a885393ff6ab6b95c98ac88821a0e016621d9351642e3",
       "role": "editable-program-and-delivery-register"
     },
     {
       "path": "Swinging-Sign-Teaching-Program-v1.0.pdf",
-      "sha256": "4387aa1714b536d9ef30cabde8b9323a4731bc19067904bc915a0d2102b9c769",
+      "sha256": "713056956aae69507f8f06cce0d464fd1fa06c977339dbcb81f38b5e6d74d9a7",
       "role": "rendered-program"
     },
     {
       "path": "teacher-program-site-map.json",
-      "sha256": "43fa55751a73fc533885bf767d56b224ed7f8b60e28b763dee8e73c9d3029cf5",
+      "sha256": "f0a5b137eda3bb845a48bb31678a317e96532ef009752e9d575357ad172eac82",
       "role": "site-map"
     }
   ]

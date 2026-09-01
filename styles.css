@@ -152,6 +152,17 @@ ul, ol { padding-left: 1.35rem; }
 .button:hover { background: var(--green-dark); color: #fff; }
 .button.secondary { background: transparent; color: var(--green-dark); }
 .button.secondary:hover { background: var(--soft); }
+.course-hero .button.secondary {
+  border-color: #fff;
+  background: #fff;
+  color: var(--green-dark);
+}
+.course-hero .button.secondary:hover,
+.course-hero .button.secondary:focus-visible {
+  border-color: var(--soft);
+  background: var(--soft);
+  color: var(--green-dark);
+}
 .button.danger { border-color: #b04747; background: #fff; color: #7b2222; }
 .actions { display: flex; flex-wrap: wrap; gap: 0.8rem; margin-top: 1.25rem; }
 

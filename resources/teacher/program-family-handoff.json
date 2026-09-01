@@ -4,7 +4,7 @@
   "program_kind": "unit",
   "source_binding": {
     "source_map_id": "stage4-swinging-sign-source-map-v1.0",
-    "source_map_sha256": "49279c45f415aa2911dbc3710b94f4950cac945f3b59a0f4e31dcdac1a8e981f",
+    "source_map_sha256": "d8e41776e390c2f9e5c7e1bcdeebc86a7ae289892b1f25a3c02f7ca846d2878e",
     "integration_baseline_id": "stage4-swinging-sign-build-state-provisional",
     "integration_baseline_path": "BUILD-STATE.json (site root)",
     "integration_baseline_sha256": "9fa27674dfc65db3e69a9e00052aec83f88c9fdb0a8d5f15343f159207793222",
@@ -63,27 +63,27 @@
     {
       "role": "editable-program",
       "path": "Swinging-Sign-Teaching-Program-v1.0.docx",
-      "sha256": "ec0a32ab41fadf1e0358e531e0d77a7237c9f5e75e46a91da0fb4e0978080492"
+      "sha256": "377ffe0c186c6962584a885393ff6ab6b95c98ac88821a0e016621d9351642e3"
     },
     {
       "role": "rendered-program",
       "path": "Swinging-Sign-Teaching-Program-v1.0.pdf",
-      "sha256": "4387aa1714b536d9ef30cabde8b9323a4731bc19067904bc915a0d2102b9c769"
+      "sha256": "713056956aae69507f8f06cce0d464fd1fa06c977339dbcb81f38b5e6d74d9a7"
     },
     {
       "role": "alignment-manifest",
       "path": "teacher-program-manifest.json",
-      "sha256": "8e470763357ebf56e5b7cbe8b4a0b43c0de2badd5401b749a1c9442c4adf5804"
+      "sha256": "0e63c41d9e6ac9bcb5f0c8d642935bfc8a06bfbc4f628fd3f9ad2192970860ad"
     },
     {
       "role": "site-map",
       "path": "teacher-program-site-map.json",
-      "sha256": "43fa55751a73fc533885bf767d56b224ed7f8b60e28b763dee8e73c9d3029cf5"
+      "sha256": "f0a5b137eda3bb845a48bb31678a317e96532ef009752e9d575357ad172eac82"
     },
     {
       "role": "delivery-register",
       "path": "Swinging-Sign-Teaching-Program-v1.0.docx",
-      "sha256": "ec0a32ab41fadf1e0358e531e0d77a7237c9f5e75e46a91da0fb4e0978080492"
+      "sha256": "377ffe0c186c6962584a885393ff6ab6b95c98ac88821a0e016621d9351642e3"
     }
   ],
   "library_card": {

@@ -12,7 +12,7 @@
 - The Drive folder supports a five-week hanging-metal-sign guide, not approved local plans or formal assessment documents.
 - Dimensions, stock, joints, machine settings, local procedures, permissions, mounting, loads and assessment administration remain Teacher to confirm.
 - The tea-light pathway is LED-only unless local policy confirms otherwise.
-- The privacy-safe generated Swinging Sign hero removes the personal name visible in the supplied source photograph.
+- The privacy-safe generated complete-product Swinging Sign hero keeps the bracket, suspension and blank plaque visible while removing the personal name shown in the supplied source photograph.
 - The two supplied holder photographs were teacher-authorised for this course release on 31 August 2026; reuse outside this course is not granted.
 
 ## Public sources
